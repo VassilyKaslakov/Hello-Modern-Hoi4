@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <NoWarn>WFO0003</NoWarn>
+    <RootNamespace>Hoi4Launcher</RootNamespace>
+    <AssemblyName>hmhoi4</AssemblyName>
+    <ApplicationIcon>Assets\hmhoi4.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.0.0</Version>
+    <Product>Hello Modern Hoi4</Product>
+    <AssemblyTitle>Hello Modern Hoi4</AssemblyTitle>
+    <Company>Hello Modern Hoi4</Company>
+    <SatelliteResourceLanguages>zh-Hans</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\hmhoi4.ico" />
+    <Resource Include="Assets\hmhoi4.png" />
+  </ItemGroup>
+
+</Project>
